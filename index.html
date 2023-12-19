@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Assignment 8</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+<body class="bg-body-secondary">
+    
+    <div class="container-fluid shadow-lg bg-primary-subtle m-auto p-5 d-flex flex-column justify-content-center">
+        <h1 class="fw-bold text-center bg-opacity-50">Bookmarker</h1>
+        <label for="bookmarkName" class="fw-bold">Site Name</label>
+        <input id="bookmarkName" type="text" class="form-control my-4" placeholder="Bookmark Name">
+        <label for="bookmarkUrl" class="fw-bold">Site URL</label>
+        <input id="bookmarkUrl" type="text" class="form-control my-4" placeholder="Bookmark URL">
+
+        <button onclick="Add()" class="btn btn-dark my-4 m-auto px-4">Add</button>
+
+        <div class="container my-5">
+            <table class="table shadow text-center">
+                <thead>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="demo">
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </div>
+
+    
+    
+    
+
+
+    <script src="JS/script.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
